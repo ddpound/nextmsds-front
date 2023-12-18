@@ -42,7 +42,7 @@ export default function RootLayout({ children }) {
                 <img src='/main-img/common/gnb_search.png'/>
               </div>
               <div>
-                2019-05-27 ~ 2030-12-31 <br/>
+                2019-05-27 ~ 2032-12-31 <br/>
                 계약건수 99999건 (작성건수 : 11611건 / 삭제건수 : 721건)
               </div>
             </div>
