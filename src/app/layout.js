@@ -48,6 +48,29 @@ export default function RootLayout({ children }) {
             </div>
           </div>
         </header>
+        <div className='mobile-header'>
+          <div className='mobile-header-img-logo'>
+          <Link href={"/"}>
+            <div><img src='/main-img/common/logo/logo.png'/></div> 
+          </Link>
+            <div>Dr.MSDS</div>
+          </div>
+          <div className='mobile-hamburger-div'>
+            <div className="hamburger-menu">
+              <input id="menu__toggle" type="checkbox" />
+              <label className="menu__btn" for="menu__toggle">
+                <span></span>
+              </label>
+              <ul className="menu__box">
+                <li><Link className="menu__item" href="#">국내외 규제</Link></li>
+                <li><Link className="menu__item" href="#">MSDS</Link></li>
+                <li><Link className="menu__item" href="#">회사정보</Link></li>
+                <li><Link className="menu__item" href="#">게시판</Link></li>
+                <li><Link className="menu__item" href="#">관리자 설정</Link></li>
+              </ul>
+            </div>
+          </div>
+        </div>
           {children}
         <footer>
           <div className='footer-info'>
